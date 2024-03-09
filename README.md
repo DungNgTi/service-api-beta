@@ -26,6 +26,11 @@
     <li><strong>PostgreSQL:</strong> Relational database management system for storing user, book, and system data.</li>
   </ul>
 
+  # Database Diagram
+
+  <img src="WebApplication1/Images/Library Database.png" style="max-width:100%; height: auto;">
+
+
   # Functionality
 
   <ol type="1">
