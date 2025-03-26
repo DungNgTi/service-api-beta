@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddDbContext<DatabaseContext>(
-    o => o.UseSqlServer(builder.Configuration.GetConnectionString("Library"))
+    o => o.UseNpgsql(builder.Configuration.GetConnectionString("Library"))
 );
 
 builder.Services.AddDistributedMemoryCache();
