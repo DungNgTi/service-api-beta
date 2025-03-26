@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using WebApplication1.Authentication;
 using WebApplication1.Model;
 
-namespace WebApplication1.Pages.BookLoans
+namespace WebApplication1.Pages.Loans
 {
     [RequireAuth(RequiredRole ="client")]
     public class ListModel : PageModel
